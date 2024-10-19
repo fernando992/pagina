@@ -1,0 +1,238 @@
+body {
+    font-family: sans-serif;
+    background-color: #FFF0E5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFE9C8;
+    padding: 20px 0;
+    color: #333;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 img {
+    max-width:200px;
+    width: 500px;
+    height:auto
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+.info {
+    display: flex; /* agrega este estilo */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.info p {
+    margin: 0;
+    text-align: center;
+    width: 10%; /* ajusta el ancho de cada bloque de texto */
+    padding: 20px;
+}
+
+.info p:nth-child(1) {
+    margin-right: 10px;
+}
+
+.info p:nth-child(2) {
+    margin-left: 10px;
+}
+
+.info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.logoprincipal {
+    background-color: #FFD79A;
+    padding: 40px 0;
+    text-align: center;
+    overflow: hidden;
+    width: 100%; /* agrega este estilo para que el logo cubra toda la parte superior */
+    height: 350px; /* ajusta el alto del logo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoprincipal img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    object-fit: cover; /* agrega este estilo */
+    width: 150%; /* ajusta el ancho de la imagen */
+}
+
+.lomasvendido {
+    background-color: #FFF0E5;
+    padding: 40px 0;
+}
+
+.lomasvendido .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lomasvendido .item {
+    display: flex;
+    flex-direction: column; /* agrega este estilo */
+    flex-basis: 40%; /* ajusta el ancho de cada caja */
+    margin: 10px; /* agrega un margen entre las cajas */
+}
+
+.info {
+    /* elimina display: flex */
+    margin-top: 20px;
+}
+
+.lomasvendido .item img {
+    width: 100%; /* ajusta el ancho de la imagen */
+    height: auto; /* ajusta la altura de la imagen */
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.social-links ul p {
+    margin: 0;
+}
+
+.social-links ul a {
+    margin-right: 10px;
+}
+
+.item {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 48%;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #FFD79A;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.products .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centra horizontalmente */
+    text-align: center; /* centra texto horizontalmente */
+    margin: 30px; /* agrega un margen entre las opciones */
+}
+
+.products .item img {
+    width: 100%; /* ajusta el ancho de la imagen */
+    height: 150px; /* ajusta el alto de la imagen */
+    object-fit: cover; /* ajusta la imagen para que se ajuste al contenedor */
+    border-radius: 10px; /* agrega un borde redondeado */
+    margin-bottom: 10px; /* agrega un margen entre la imagen y el texto */
+}
+
+.products .item h3 {
+    font-size: 18px; /* ajusta el tamaño de la fuente del título */
+    margin-bottom: 10px; /* agrega un margen entre el título y el texto */
+}
+
+.products .item p {
+    font-size: 14px; /* ajusta el tamaño de la fuente del texto */
+    margin-bottom: 20px; /* agrega un margen entre el texto y el botón */
+}
+
+.products .item .button {
+    background-color: #ff69b4; /* ajusta el color de fondo del botón */
+    color: #ffffff; /* ajusta el color del texto del botón */
+    padding: 10px 20px; /* agrega un padding al botón */
+    border: none; /* elimina el borde del botón */
+    border-radius: 10px; /* agrega un borde redondeado al botón */
+    cursor: pointer; /* cambia el cursor a una mano cuando se pasa sobre el botón */
+}
+
+footer {
+    background-color: #FFE9C8;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    background-color: #FFD79A;
+    padding: 20px 0;
+    color: #333;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 25;
+    margin: 25;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links ul p {
+    margin: 0;
+}
+
+.social-links ul a {
+    margin-right: 10px;
+}
+
+
+.social-links li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-links li a img {
+    max-width: 55%;
+    display: flex;
+    height: auto;
+    margin-right: 10px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
